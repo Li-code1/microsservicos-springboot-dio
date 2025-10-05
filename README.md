@@ -32,11 +32,10 @@ Projeto desenvolvido como parte do desafio da DIO para aplicar arquitetura de mi
 
 2. Compile os microsserviços:
 
-bash
 mvn clean package
 Execute os microsserviços:
 
-bash
+
 java -jar warehouse/target/*.jar
 java -jar storefront/target/*.jar
 
